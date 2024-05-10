@@ -1,0 +1,222 @@
+@font-face {
+    font-family: 'Grandstander Italic';
+    src: url('/Grandstander-Italic-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Grandstander';
+    src: url('/Grandstander-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 1) !important;
+    background: url('/PANDACOIN-shadow-1.png');
+    color: white !important;
+    font-family: 'Grandstander' !important;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+}
+
+.bgforshadow {
+    background: url('/PANDACOIN-shadow-2.png');
+    color: white !important;
+    font-family: 'Grandstander' !important;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+}
+.fs32 {
+    font-size: 32px;
+}
+
+.text-golden {
+    color: rgba(199, 129, 47, 1);
+}
+
+.how-to-buy p {
+    font-size: 25px;
+}
+
+.how-to-buy h3 {
+    font-size: 40px;
+}
+
+.buttonglobal {
+    border: 0.5px solid rgba(201, 133, 55, 1);
+    border-radius: 180px;
+    background: transparent;
+    color: white;
+    padding: 8px 25px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-right: 26px;
+    margin-block: 10px;
+    text-transform: uppercase;
+
+
+}
+
+.sociallink a {
+    display: inline-block;
+    margin-inline: 22px;
+}
+.tranlateeffect{
+    transition: all 0.7s ease-in-out; 
+}
+.tranlateeffect:hover{
+    transform: translateY(-7px); /* Adjust this value to control image hover effect */
+    transition: all 0.7s ease-in-out;
+}
+.sociallink div:hover  {
+    transform: translateY(-7px); /* Adjust this value to control image hover effect */
+    transition: all 0.7s ease-in-out;
+
+  }
+.sociallink div {
+    transition: all 0.7s ease-in-out;
+
+    /* padding: 20px; */
+    border: 10px;
+    border: 1px solid rgba(201, 133, 55, 1);
+    height: 90px !important;
+    width: 90px !important;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, rgba(208, 119, 41, 0.14) 0%, rgba(221, 130, 40, 0.32) 100%);
+}
+
+.sociallink svg {
+    height: 55%;
+    /* width: 40%; */
+}
+
+.sociallink p {
+    font-size: 20px;
+    margin-block: 8px;
+    text-transform: uppercase;
+}
+
+.groupbtn {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+.groupbtn .buttonglobal {
+    margin-right: 10px;
+
+}
+
+footer .copyright {
+    border-top: 0.5px solid rgba(201, 133, 55, 1);
+}
+
+.header-logo {
+    width: 100px;
+
+}
+
+footer img {
+    width: 100px;
+    margin-top: 90px;
+    margin-bottom: 40px;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    background: transparent !important;
+    color: white !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white !important;
+}
+
+a.nav-link {
+    font-size: 22px;
+    margin-inline: 24px;
+}
+
+.headerbtn {
+    background: linear-gradient(90deg, rgba(208, 119, 41, 0.24) 0%, rgba(221, 130, 40, 0.72) 100%);
+    border: 1px solid rgba(201, 133, 55, 1);
+    color: white !important;
+    border-radius: 50px !important;
+    padding: 10px 30px !important;
+    text-transform: capitalize;
+    font-size: 22px;
+}
+
+
+span.count {
+    height: 35px;
+    width: 36px;
+    background: #c7812f;
+    display: inline-flex;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.animated-image {
+    transform: translateX(-30%);
+    animation: moveUpDown 5s ease-in-out infinite alternate; /* Adjust animation duration as needed */
+  }
+  
+  @keyframes moveUpDown {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(20px); /* Adjust the amount of movement as needed */
+    }
+  }
+  .copyright {
+    font-size: 20px;
+}
+
+
+
+  
+
+@media only screen and (max-width: 500px) {
+    span.text-golden {
+        word-break: break-word;
+    }
+.how-to-buy p {
+    font-size: 18px;
+}
+span.count {
+    align-items: center;
+}
+img.herotext {
+    width: 80%;
+}
+.fs32 {
+    font-size: 24px;
+}
+.groupbtn {
+    display: grid;
+    grid-template-columns: 100%;
+}
+.how-to-buy .row {
+    flex-direction: column-reverse;
+}
+.headerbtn {
+    padding: 6px 24px !important;
+    font-size: 16px !important;
+}
+.sociallink div {
+    height: 70px !important;
+    width: 70px !important;
+}
+.sociallink a {
+    display: inline-block;
+    margin-inline: 10px;
+}
+}
