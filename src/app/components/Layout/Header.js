@@ -28,7 +28,8 @@ const Header = () => {
             </li>
           </ul>
         
-         
+          <button class="d-md-inline d-none  headerbtn me-2 tranlateeffect" type="button">Buy Now</button>
+
         </div>
       </div>
     </nav>

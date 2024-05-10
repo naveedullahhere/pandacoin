@@ -180,14 +180,14 @@ span.count {
     font-size: 20px;
 }
 
-
+span.text-golden {
+    word-break: break-word;
+}
 
   
 
 @media only screen and (max-width: 500px) {
-    span.text-golden {
-        word-break: break-word;
-    }
+
 .how-to-buy p {
     font-size: 18px;
 }
